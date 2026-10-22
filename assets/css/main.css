@@ -1,0 +1,83 @@
+body {
+    min-height: 100vh;
+    margin: 20px;
+    background: linear-gradient( 180deg,rgba(23, 23, 27, 1) 0%, rgba(63, 33, 27, 1) 69%);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+picture {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.menu-hamburguer {
+    width: 30px;
+}
+
+.icone-chapeu {
+    width: 50px;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-menu {
+    width: 90px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.learn{
+    background-color: transparent;
+    border: solid 1px #F8CD45;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.sing {
+    background-color: #F8CD45;
+    font-weight: 600;
+    color: #000000;
+}
+
+main{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 40px 0;
+}
+
+p {
+    color: #FFFFFF;
+    margin: 0 100px 40px 0;
+    font-size: 20px;
+}
+
+.btn {
+    width: 120px;
+    height: 50px;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.personagem {
+    margin: 10px 0px 0px 320px;
+    width: 220px;
+    height: 280px;
+}
